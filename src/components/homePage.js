@@ -49,7 +49,7 @@ const HomePage = () => {
                 <section className='md:md:col-span-2 md:md:pl-6'>
                     <div>
                         <Heading h2 heading={"Event Overview"} />
-                        <div className='h-full'>
+                        <div className='h-full animated'>
                             A strong customer experience, employee experience and customer loyalty program management are the hallmark of many of the world’s most successful brands – setting the bar for organizations across all industries to prioritize their CX, EX &amp; CL strategies and deliver superior experiences across all channels. It’s no secret that over the past two years, customer expectations have evolved – making CX as one of the biggest differentiators between one’s brand and the competition. Two thirds of organizations globally now compete on customer experience alone with 87% of business leaders having identified CX as their top growth engine.
                         </div>
                     </div>
