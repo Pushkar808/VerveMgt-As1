@@ -58,28 +58,28 @@ export const Footer = () => {
 
                         <ul class="mt-8 space-y-4 text-sm">
                             <li>
-                                <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
-                                    Event Details
+                                <a class="text-gray-700 transition hover:text-gray-700/75" href="#section1">
+                                    Event Overview
                                 </a>
                             </li>
 
                             <li>
-                                <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
-                                    Schedule
+                                <a class="text-gray-700 transition hover:text-gray-700/75" href="#section2">
+                                    Industries Covered
                                 </a>
                             </li>
 
                             <li>
-                                <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
-                                    Featured Speakers
+                                <a class="text-gray-700 transition hover:text-gray-700/75" href="#section3">
+                                    Who you will met
                                 </a>
                             </li>
 
                             <li>
-                                <a class="text-gray-700 transition hover:text-gray-700/75" href="/"> Valued Sponsors </a>
+                                <a class="text-gray-700 transition hover:text-gray-700/75" href="#section4"> Why met </a>
                             </li>
                             <li>
-                                <a class="text-gray-700 transition hover:text-gray-700/75" href="/"> Contact </a>
+                                <a class="text-gray-700 transition hover:text-gray-700/75" href="#section5"> Topic Highlights </a>
                             </li>
                         </ul>
                     </div>

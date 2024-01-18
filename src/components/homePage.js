@@ -44,8 +44,8 @@ const HomePage = () => {
                     </div>
                 </div>
             </div>
-            <Contentgrid>
-                <div className='col-span-1'>
+            <Contentgrid >
+                <div className='col-span-1' id="section1">
                     <img src="https://cxloyaltymena.com/wp-content/uploads/2022/11/ALI01906-768x512.jpg" className='rounded-lg w-30 h-72' />
                 </div>
                 <section className='md:md:col-span-2 md:md:pl-6'>
@@ -69,8 +69,8 @@ const HomePage = () => {
             </Contentgrid>
             <Contentgrid classCss="bg-blue-300 pb-5" >
 
-                <div className='md:col-span-2 flex flex-col content-between h-full' ref={ref}>
-                    <div className='h-full flex justify-evenly'>
+                <div className='md:col-span-2 flex flex-col content-between h-full' id="section2" ref={ref}>
+                    <div className='h-full flex justify-evenly md:flex-row flex-col items-center'>
                         <HoverImg src="https://cxloyaltymena.com/wp-content/uploads/cx-icons/cx-and-loyalty-industries-covered-banks-w.png" text={"BFSI"} />
                         <HoverImg src="https://cxloyaltymena.com/wp-content/uploads/cx-icons/cx-and-loyalty-industries-covered-retail-ecommerce-w.png" text={"Retail & E-Commerce"} />
                         <HoverImg src="https://cxloyaltymena.com/wp-content/uploads/cx-icons/cx-and-loyalty-industries-covered-telecommunications-w.png" text={"Telecommunication"} />
@@ -79,7 +79,7 @@ const HomePage = () => {
                     <div className='h-full text-center'>
                         <Heading h2 heading={"industries covered"} classCss="md:text-center" />
                     </div>
-                    <div className='h-full flex justify-evenly'>
+                    <div className='h-full flex justify-evenly md:flex-row flex-col items-center'>
                         <HoverImg src="https://cxloyaltymena.com/wp-content/uploads/cx-icons/cx-and-loyalty-industries-covered-travel-and-tourism1-w.png" text={"Travel & Tourism"} />
                         <HoverImg src="https://cxloyaltymena.com/wp-content/uploads/cx-icons/cx-and-loyalty-industries-covered-aviation-w.png" text={"Aviation"} />
                         <HoverImg src="https://cxloyaltymena.com/wp-content/uploads/cx-icons/cx-and-loyalty-industries-covered-fmcg-cpg-w.png" text={"FMCG & CPG"} />
@@ -91,7 +91,7 @@ const HomePage = () => {
                 </div>
             </Contentgrid>
             <Contentgrid>
-                <div className='col-span-1'>
+                <div className='col-span-1' id="section3">
                     <img src="https://cxloyaltymena.com/wp-content/uploads/2022/11/DSC08999.jpg" className='rounded-lg w-30 h-72' />
                 </div>
                 <section className='md:col-span-2 md:pl-6'>
@@ -113,7 +113,7 @@ const HomePage = () => {
                 </section>
             </Contentgrid>
             <Contentgrid classCss="bg-blue-300 pb-5">
-                <section className='md:col-span-2 md:pr-6'>
+                <section className='md:col-span-2 md:pr-6'  id="section3">
                     <div>
                         <Heading h2 heading={"Why Attend"} />
                         <div className={`h-full`}>
@@ -139,7 +139,7 @@ const HomePage = () => {
             <Contentgrid classCss="pb-5">
                 <Heading h2 heading={"Topic Highligts​"} />
 
-                <section className='col-span-3'>
+                <section className='col-span-3'  id="section5">
 
                     <ul className='list-disc p-4 '>
                         <li>	Corporate Culture Focus: Top tips to successfully spearhead CustomerExperience Transformation internally</li>
@@ -161,42 +161,42 @@ const HomePage = () => {
             </Contentgrid >
             <Contentgrid classCss="bg-blue-300 pb-5" >
 
-                <div className='md:col-span-3 flex flex-col content-between h-full' ref={ref}>
-                    <div className='h-full flex flex-col content-start border-b-2'>
+                <div className={`md:col-span-3 flex flex-col content-between h-full ${inView ? 'animate__animated animate__fadeIn' : ''}`} ref={ref} >
+                    <div className='h-full flex flex-col animate__animated animate__fadeIn  content-start border-b-2 my-2'>
                         <div>
                             <Heading h3 heading={"Why Sponsor?"} />
                         </div>
-                        <div>
+                        <div className='p-2'>
                             2nd Annual CX & Loyalty Summit & Awards MENA 2023, presents the perfect opportunity for solution providers to engage with key decision makers such as CXOs, Heads of Marketing, Heads of Customer Experience, Heads of Loyalty Programs etc from diverse industries such as BFSI, Retail & E-Commerce, Telco, Hospitality, Travel & Tourism, Aviation, CPG etc to differentiate their product and put forward their value proposition in this crowded marketplace. Some of the key reasons why you should sponsor:
                         </div>
                     </div>
-                    <div className='h-full flex flex-col content-start border-b-2'>
+                    <div className='h-full flex flex-col content-start animate__animated animate__fadeIn  border-b-2 my-2'>
                         <div>
                             <Heading h3 heading={"Demonstrate Thought Leadership "} />
                         </div>
-                        <div>
+                        <div className='p-2'>
                             2nd Annual CX & Loyalty Summit & Awards MENA 2023, presents the perfect opportunity for solution providers to engage with key decision makers such as CXOs, Heads of Marketing, Heads of Customer Experience, Heads of Loyalty Programs etc from diverse industries such as BFSI, Retail & E-Commerce, Telco, Hospitality, Travel & Tourism, Aviation, CPG etc to differentiate their product and put forward their value proposition in this crowded marketplace. Some of the key reasons why you should sponsor:
                         </div>
                     </div>
-                    <div className='h-full flex flex-col content-start border-b-2'>
+                    <div className='h-full flex flex-col content-start animate__animated animate__fadeIn  border-b-2 my-2'>
                         <div>
                             <Heading h3 heading={"Network & Generate Leads "} />
                         </div>
-                        <div>
+                        <div className='p-2'>
                             Position your company as a thought leader by delivering a standalone presentation or moderating a panel discussion to a pre-qualified audience comprising of decision makers.
                         </div>
                     </div>
-                    <div className='h-full flex flex-col content-start border-b-2'>
+                    <div className={`h-full flex flex-col content-start my-2`}>
                         <div>
                             <Heading h3 heading={"Brand Positioning"} />
                         </div>
-                        <div>
+                        <div className='p-2'>
                             Establish, strengthen and re-position your brand in front of CMOs, Heads of CX & Loyalty who are looking to re-align and strengthen their CX &amp; Loyalty strategies
                         </div>
                     </div>
                 </div>
 
-            </Contentgrid>
+            </Contentgrid >
             <Footer />
         </div >
 

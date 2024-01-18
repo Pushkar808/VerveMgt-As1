@@ -7,7 +7,7 @@ export const Heading = (props) => {
             <div className={`text-center md:text-left text-red-400 text-2xl font-bold uppercase mx-2 my-4 ${props?.classCss}`} >
                 {
                     props?.h2 &&
-                    <h2 ref={ref} className={`${inView ? 'animate__jackInTheBox animate__animated' : ''}`}>
+                    <h2 ref={ref} className={`${inView ? 'animate__headShake animate__animated' : ''}`}>
                         {props?.heading}
                     </h2>
                 }
