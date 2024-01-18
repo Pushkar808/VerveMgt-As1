@@ -5,6 +5,7 @@ import Contentgrid from './contentGrid';
 import people from '../images/characters.png'
 import { HoverImg } from './hoverImg';
 import { useInView } from "react-intersection-observer"
+import { Footer } from './footer';
 
 const HomePage = () => {
     const [ref, inView] = useInView({ threshold: 0.5 })
@@ -34,11 +35,11 @@ const HomePage = () => {
 
                     </div>
                 </div>
-                <div className='drop-shadow-xl absolute bg-[#5F2BC2] w-[50%] text-center -bottom-14 h-[20%] text-white rounded-2xl p-4 left-[25%]'>
-                    <div className='p-1 font-normal md:text-2xl'>
+                <div className='drop-shadow-xl absolute bg-[#4F46E5] w-[50%] text-center -bottom-14 h-[20%] text-white rounded-2xl p-4 left-[25%]'>
+                    <div className='p-1 font-normal md:text-xl'>
                         1 - 2 NOVEMBER 2023
                     </div>
-                    <div className='p-1 font-normal md:text-2xl'>
+                    <div className='p-1 font-normal md:text-xl'>
                         THE MEYDAN HOTEL, DUBAI
                     </div>
                 </div>
@@ -135,30 +136,70 @@ const HomePage = () => {
                     </ul>
                 </section >
             </Contentgrid >
-    <Contentgrid classCss="pb-5">
-        <Heading h2 heading={"Topic Highligts​"} />
+            <Contentgrid classCss="pb-5">
+                <Heading h2 heading={"Topic Highligts​"} />
 
-        <section className='col-span-3'>
+                <section className='col-span-3'>
 
-            <ul className='list-disc p-4 '>
-                <li>	Corporate Culture Focus: Top tips to successfully spearhead CustomerExperience Transformation internally</li>
-                <li>	Brand communities driving Loyalty, Retention & Advocacy - How to transform your loyal customers to brand advocates</li>
-                <li>	Delivering the ‘Unattainable’ CX dream and transformation towards Hyper Personalization</li>
-                <li>	Unveiling how exceptional brands retain their customers and build loyalty</li>
-                <li>	How to simultaneously improve Customer Experience and Operational Excellence to make customers loyal</li>
-                <li>	Using Data, CRM, and Marketing Automation to drive friction-free experiences</li>
-                <li>	Multichannel Focus: Strategies to deliver a world-class customer experience across multiple channels</li>
-                <li>	Driving Customer Loyalty and Top-line revenue through Gamification</li>
-                <li>	Strategies to tailor the multi-channel experience while delivering a consistent Brand promise</li>
-                <li>	Linking Voice of the Employee and Voice of the Customer - A critical key to CX success</li>
-                <li>	Using social media to improve brand perception and shape the Customer Experience</li>
-                <li>	Exploring advances in Customer Analytics and Segmentation – Getting to really know your customer</li>
-                <li>	Ensuring effective complaint handling as the foundation of a Customer Retention Strategy</li>
-                <li>	How loyalty programs boost revenue and how to measure it</li>
-            </ul>
-        </section>
-    </Contentgrid >
+                    <ul className='list-disc p-4 '>
+                        <li>	Corporate Culture Focus: Top tips to successfully spearhead CustomerExperience Transformation internally</li>
+                        <li>	Brand communities driving Loyalty, Retention & Advocacy - How to transform your loyal customers to brand advocates</li>
+                        <li>	Delivering the ‘Unattainable’ CX dream and transformation towards Hyper Personalization</li>
+                        <li>	Unveiling how exceptional brands retain their customers and build loyalty</li>
+                        <li>	How to simultaneously improve Customer Experience and Operational Excellence to make customers loyal</li>
+                        <li>	Using Data, CRM, and Marketing Automation to drive friction-free experiences</li>
+                        <li>	Multichannel Focus: Strategies to deliver a world-class customer experience across multiple channels</li>
+                        <li>	Driving Customer Loyalty and Top-line revenue through Gamification</li>
+                        <li>	Strategies to tailor the multi-channel experience while delivering a consistent Brand promise</li>
+                        <li>	Linking Voice of the Employee and Voice of the Customer - A critical key to CX success</li>
+                        <li>	Using social media to improve brand perception and shape the Customer Experience</li>
+                        <li>	Exploring advances in Customer Analytics and Segmentation – Getting to really know your customer</li>
+                        <li>	Ensuring effective complaint handling as the foundation of a Customer Retention Strategy</li>
+                        <li>	How loyalty programs boost revenue and how to measure it</li>
+                    </ul>
+                </section>
+            </Contentgrid >
+            <Contentgrid classCss="bg-blue-300 pb-5" >
+
+                <div className='md:col-span-3 flex flex-col content-between h-full' ref={ref}>
+                    <div className='h-full flex flex-col content-start border-b-2'>
+                        <div>
+                            <Heading h3 heading={"Why Sponsor?"} />
+                        </div>
+                        <div>
+                            2nd Annual CX & Loyalty Summit & Awards MENA 2023, presents the perfect opportunity for solution providers to engage with key decision makers such as CXOs, Heads of Marketing, Heads of Customer Experience, Heads of Loyalty Programs etc from diverse industries such as BFSI, Retail & E-Commerce, Telco, Hospitality, Travel & Tourism, Aviation, CPG etc to differentiate their product and put forward their value proposition in this crowded marketplace. Some of the key reasons why you should sponsor:
+                        </div>
+                    </div>
+                    <div className='h-full flex flex-col content-start border-b-2'>
+                        <div>
+                            <Heading h3 heading={"Demonstrate Thought Leadership "} />
+                        </div>
+                        <div>
+                            2nd Annual CX & Loyalty Summit & Awards MENA 2023, presents the perfect opportunity for solution providers to engage with key decision makers such as CXOs, Heads of Marketing, Heads of Customer Experience, Heads of Loyalty Programs etc from diverse industries such as BFSI, Retail & E-Commerce, Telco, Hospitality, Travel & Tourism, Aviation, CPG etc to differentiate their product and put forward their value proposition in this crowded marketplace. Some of the key reasons why you should sponsor:
+                        </div>
+                    </div>
+                    <div className='h-full flex flex-col content-start border-b-2'>
+                        <div>
+                            <Heading h3 heading={"Network & Generate Leads "} />
+                        </div>
+                        <div>
+                            Position your company as a thought leader by delivering a standalone presentation or moderating a panel discussion to a pre-qualified audience comprising of decision makers.
+                        </div>
+                    </div>
+                    <div className='h-full flex flex-col content-start border-b-2'>
+                        <div>
+                            <Heading h3 heading={"Brand Positioning"} />
+                        </div>
+                        <div>
+                            Establish, strengthen and re-position your brand in front of CMOs, Heads of CX & Loyalty who are looking to re-align and strengthen their CX &amp; Loyalty strategies
+                        </div>
+                    </div>
+                </div>
+
+            </Contentgrid>
+            <Footer />
         </div >
+
     );
 };
 
