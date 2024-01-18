@@ -43,10 +43,10 @@ const HomePage = () => {
                 </div>
             </div>
             <Contentgrid>
-                <div>
+                <div className='col-span-1'>
                     <img src="https://cxloyaltymena.com/wp-content/uploads/2022/11/ALI01906-768x512.jpg" className='rounded-lg w-30 h-72' />
                 </div>
-                <section className='col-span-2 pl-6'>
+                <section className='md:md:col-span-2 md:md:pl-6'>
                     <div>
                         <Heading h2 heading={"Event Overview"} />
                         <div className='h-full'>
@@ -54,7 +54,7 @@ const HomePage = () => {
                         </div>
                     </div>
                 </section>
-                <section className='col-span-3'>
+                <section className='md:col-span-3'>
                     <div>
                         <p>
                             The 2nd Annual CX & Loyalty Summit MENA 2023 shifts focus on innovative approaches that the world’s leading organizations are deploying to manage customer interactions and maximize customer value
@@ -67,7 +67,7 @@ const HomePage = () => {
             </Contentgrid>
             <Contentgrid classCss="bg-blue-200 pb-5">
 
-                <div className='col-span-2 flex flex-col content-between h-full'>
+                <div className='md:col-span-2 flex flex-col content-between h-full'>
                     <div className='h-full flex justify-evenly'>
                         <HoverImg src="https://cxloyaltymena.com/wp-content/uploads/cx-icons/cx-and-loyalty-industries-covered-banks-w.png" text={"BFSI"} />
                         <HoverImg src="https://cxloyaltymena.com/wp-content/uploads/cx-icons/cx-and-loyalty-industries-covered-banks-w.png" text={"BFSI"} />
@@ -92,7 +92,7 @@ const HomePage = () => {
                 <div className='col-span-1'>
                     <img src="https://cxloyaltymena.com/wp-content/uploads/2022/11/DSC08999.jpg" className='rounded-lg w-30 h-72' />
                 </div>
-                <section className='col-span-2 pl-6'>
+                <section className='md:col-span-2 md:pl-6'>
                     <div>
                         <Heading h2 heading={"Who You Will Meet"} />
                         <div className='h-full'>
@@ -111,18 +111,18 @@ const HomePage = () => {
                 </section>
             </Contentgrid>
             <Contentgrid classCss="bg-blue-200 pb-5">
-                <section className='col-span-2 pr-6'>
+                <section className='md:col-span-2 md:pr-6'>
                     <div>
-                        <Heading h2 heading={"Event Overview"} />
+                        <Heading h2 heading={"Why Attend"} />
                         <div className='h-full'>
                             The 2nd Annual CX & Loyalty Summit & Awards MENA 2023 will bring together senior industry professionals across all industries and verticals to talk all things CX, EX, Loyalty, Customer Service, Digital Trends and much more. The Summit will explore emerging CX strategies, the latest technologies – Digital, Automation and best practices that will keep your organization at the forefront of CX, EX & CL excellence. Delegates will experience a power-packed agenda consisting of presentations, panel discussions and keynotes from globally renowned speakers, panelists and moderators. At the event, you will have the opportunity to network with and gain knowledge from industry specialists from around the globe and form partnerships with these specialists.
                         </div>
                     </div>
                 </section>
-                <div className='col-span-1'>
-                    <img src="https://cxloyaltymena.com/wp-content/uploads/2022/11/ALI01858-768x512.jpg" className='rounded-lg w-30 h-72' />
+                <div className='md:col-span-1 w-full h-full'>
+                    <img src="https://cxloyaltymena.com/wp-content/uploads/2022/11/ALI01858-768x512.jpg" className='rounded-lg w-full h-full' />
                 </div>
-                <section className='col-span-3'>
+                <section className='md:col-span-3'>
                     <p>At 2nd Annual CX & Loyalty Summit MENA 2023, you’ll hear the most innovative approaches that the world’s leading organizations are deploying to manage customer interactions and maximize customer value. If you are ready to innovate and join the ranks of the biggest innovators while resonating with the following reasons compelling enough to attend, then register today:
                     </p>
                     <ul className='list-disc p-4 '>
@@ -131,6 +131,29 @@ const HomePage = () => {
                         <li>	Discuss Significant Partnerships and Collaborations with Industry leaders</li>
                         <li>	Deep Dive into Insights derived from real-time case studies</li>
                         <li>	Build Industry Ecosystem Collaboration to address latest challenges</li>
+                    </ul>
+                </section>
+            </Contentgrid >
+            <Contentgrid classCss="pb-5">
+                <Heading h2 heading={"Topic Highligts​"} />
+
+                <section className='col-span-3'>
+
+                    <ul className='list-disc p-4 '>
+                        <li>	Corporate Culture Focus: Top tips to successfully spearhead CustomerExperience Transformation internally</li>
+                        <li>	Brand communities driving Loyalty, Retention & Advocacy - How to transform your loyal customers to brand advocates</li>
+                        <li>	Delivering the ‘Unattainable’ CX dream and transformation towards Hyper Personalization</li>
+                        <li>	Unveiling how exceptional brands retain their customers and build loyalty</li>
+                        <li>	How to simultaneously improve Customer Experience and Operational Excellence to make customers loyal</li>
+                        <li>	Using Data, CRM, and Marketing Automation to drive friction-free experiences</li>
+                        <li>	Multichannel Focus: Strategies to deliver a world-class customer experience across multiple channels</li>
+                        <li>	Driving Customer Loyalty and Top-line revenue through Gamification</li>
+                        <li>	Strategies to tailor the multi-channel experience while delivering a consistent Brand promise</li>
+                        <li>	Linking Voice of the Employee and Voice of the Customer - A critical key to CX success</li>
+                        <li>	Using social media to improve brand perception and shape the Customer Experience</li>
+                        <li>	Exploring advances in Customer Analytics and Segmentation – Getting to really know your customer</li>
+                        <li>	Ensuring effective complaint handling as the foundation of a Customer Retention Strategy</li>
+                        <li>	How loyalty programs boost revenue and how to measure it</li>
                     </ul>
                 </section>
             </Contentgrid >

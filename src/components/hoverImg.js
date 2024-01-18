@@ -6,7 +6,7 @@ export const HoverImg = (props) => {
             <div>
                 <img src={props?.src} className='w-28 h-24' />
             </div>
-            <p className='text-center text-white hover:text-blue-300'>
+            <p className='text-center text-white'>
                 {props?.text}
             </p>
         </span>
