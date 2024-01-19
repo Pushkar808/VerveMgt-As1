@@ -45,7 +45,7 @@ export const Footer = () => {
                 <div class="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
                     <div class="text-center sm:text-left " >
                         <div className='col-span-1 text-2xl p-1'>An Initiative By</div>
-                        <img src="https://cxloyaltymena.com/wp-content/uploads/2022/06/verve-white-768x263.png" className='invert' />
+                        <img src="https://cxloyaltymena.com/wp-content/uploads/2022/06/verve-white-768x263.png" className='invert' alt=''/>
 
                     </div>
 
