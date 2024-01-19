@@ -1,7 +1,7 @@
 {
   "name": "cxl",
   "version": "0.1.0",
-  "homepage": "https://pushkar808.github.io/VerveMgs-As1/",
+  "homepage": "https://pushkar808.github.io/VerveMgt-As1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
