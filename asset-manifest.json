@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/VerveMgt-As1/static/css/main.4abbc7dd.css",
+    "main.js": "/VerveMgt-As1/static/js/main.c22ecc93.js",
+    "static/media/bannerImage.webp": "/VerveMgt-As1/static/media/bannerImage.c4f743bfe6965f54013f.webp",
+    "static/media/Logo.png": "/VerveMgt-As1/static/media/Logo.ced2e66e71dc36931870.png",
+    "static/media/characters.png": "/VerveMgt-As1/static/media/characters.f29c0bed7e445c593b3f.png",
+    "index.html": "/VerveMgt-As1/index.html",
+    "main.4abbc7dd.css.map": "/VerveMgt-As1/static/css/main.4abbc7dd.css.map",
+    "main.c22ecc93.js.map": "/VerveMgt-As1/static/js/main.c22ecc93.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4abbc7dd.css",
+    "static/js/main.c22ecc93.js"
+  ]
+}
