@@ -1,5 +1,4 @@
 import React from 'react'
-import { Heading } from './heading'
 
 const Contentgrid = (props) => {
     return (
